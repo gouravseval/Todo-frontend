@@ -1,0 +1,15 @@
+@keyframes contactani {
+    0%{
+        transform: translate(-7px, -2px);
+    }50%{
+        transform: translate(5px, 10px);
+    }100%{
+        transform: translate(-7px, -2px);
+    }
+}
+
+
+.contact{
+animation: contactani 3000ms linear infinite;
+
+}
